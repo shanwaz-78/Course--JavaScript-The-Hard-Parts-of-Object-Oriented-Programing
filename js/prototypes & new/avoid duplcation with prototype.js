@@ -29,7 +29,7 @@ const functionStore = {
 
   // But we should use a technique to make a prototype link
    // 2. Solution.
-const user1 = Object.create(functionStore);
+const user1 = Object.create(functionStore); // Object.create() always always returns us an empty object. and the functionStore has bond with user1 we dont know how but there's a bong (will sentence said).
 user1.name = 'Phill';
 user1.age = 20;
 
