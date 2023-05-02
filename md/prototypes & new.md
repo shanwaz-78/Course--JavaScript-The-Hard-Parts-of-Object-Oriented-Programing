@@ -53,5 +53,4 @@ console.log(userCreator.name);
 
 - > **_First We Declared a function Declaration userCreator and passed a placeholder then resolve the placeholder and retunred it then we are trying to dynimically add a property into a function and what would happen function have an hidden property called protype and it's also an object the object of prototype will overwrite and will set the whole new object with property of name, then we are calling the function so it will look for the fucntion and will continue his execution then we are trying to access object property so he will go the protype object and will give us the value of name_**
 
----
-
+## [For More Click Over This](../js/prototypes%20%26%20new/)
