@@ -21,3 +21,6 @@ function greetingMaker(x) {
 const first = [2,3,4];
 const greeting = greetingMaker(15);
 console.log(greeting(first))
+
+
+// Call,,we do binding with the call,apply and bind biding means we are use object's properties or methods in the function or uses functions functionality in the object call apply bind they works same but slightly different call allow us multiple array of argumnets whereas apply allow only single array of argument and bind is little tricky the bind instead of calling a function it's returns the bound function.
