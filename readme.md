@@ -4,3 +4,4 @@
 * ## ___[Prototype & new](./md/prototypes%20%26%20new.md)___
 * ## ___[Scope & This](./js/scope%20%26%20this/)___
 * ## ___[Default Prototype Chain](./js/default%20protoype%20chain/)___
+* ## ___[SubClassing with Factory Function](./js/subclassing%20with%20factory%20function/)___
