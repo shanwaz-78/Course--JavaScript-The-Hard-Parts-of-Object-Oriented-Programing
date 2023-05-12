@@ -16,7 +16,6 @@ user1.login();
 class collegeStudent extends scStudent {
   constructor(paidname, paiduser, accountbalance) {
     super(accountbalance); // in the previous the new keyword automatically set the the __proto__ and give the scStudents's prototype object refference to the collenge student class's constructor but but but now the super keyword will set the __proto__ for the collegeStudent earlier he setted the __proto__ for constructur but now he will set for the whole class and then pass him to the whole class of scStudetn's refference then the super keyword are (calling.) and he had the reffernce to the scStudent so then he will make new execution context. and in that execution context he will store first the labels name,score
-    this.accountbalance = accountbalance;
   }
   showBalance() {
     console.log(this.accountbalance++);
