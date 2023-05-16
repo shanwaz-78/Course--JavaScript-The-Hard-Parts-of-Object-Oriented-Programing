@@ -46,4 +46,4 @@ class scStudent {
 const user5 = new scStudent("Phill");
 user5.implement();
 user5.name = "Suzy";
-console.log(user5.name);
+console.log(user5.name)
