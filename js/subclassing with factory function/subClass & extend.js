@@ -46,22 +46,21 @@ class scStudent {
 const user5 = new scStudent("Phill");
 user5.implement();
 user5.name = "Suzy";
-console.log(user5.name)
-
+console.log(user5.name);
 
 // higher order functions.
-function userCreator(arr,instructions) {
+function userCreator(arr, instructions) {
   const output = [];
-  for(let i = 0; i < arr.length; i++){
+  for (let i = 0; i < arr.length; i++) {
     output.push(instructions(arr[i]));
-  };
+  }
   return output;
-};
+}
 
 function multiplyBy2(input) {
   return 2 * input;
-};
+}
 
-const array = [1,2,3];
-const user = userCreator(array,multiplyBy2);
-console.log(user)
+const array = [1, 2, 3];
+const user = userCreator(array, multiplyBy2);
+console.log(user);
