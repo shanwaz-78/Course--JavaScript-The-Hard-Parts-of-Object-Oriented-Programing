@@ -8,7 +8,7 @@ OOP - an enormously popular paradigm for structuring our complex code
 
 — Performant (efficient in terms of memory)
 
-We need to organize our code as it gets more complex so it's not just an endless series of commands.
+* We need to organize our code as it gets more complex so it's not just an endless series of commands.
 
 ------------------
 
