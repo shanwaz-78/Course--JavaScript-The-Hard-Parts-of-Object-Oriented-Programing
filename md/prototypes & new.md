@@ -33,7 +33,7 @@ newObj.name; // -> 'Julia'
 
 # Explanation.
 
-Object.create() always creates an empty object and in this case we are creating an object using Object.create(obj) so as i said earlier this method always creates an empty object so he will stored an empty object in newObj and (Will set the entire obj as a prototype of the newObj.)
+* Object.create() always creates an empty object and in this case we are creating an object using Object.create(obj) so as i said earlier this method always creates an empty object so he will stored an empty object in newObj and (Will set the entire obj as a prototype of the newObj.)
 
 - > **_So Whenever we'll look for name in newObj first it will check in newObj is there any name property nope, so then he will go to his prototype and the prototype is obj so he will find in the obj for the name property and he able to find there and will return us_**.TT
 
