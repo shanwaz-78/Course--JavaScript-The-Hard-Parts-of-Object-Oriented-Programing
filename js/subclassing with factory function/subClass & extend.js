@@ -60,7 +60,6 @@ function userCreator(arr, instructions) {
 function multiplyBy2(input) {
   return 2 * input;
 }
-
 const array = [1, 2, 3];
 const user = userCreator(array, multiplyBy2);
 console.log(user);
