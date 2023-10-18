@@ -20,7 +20,6 @@ class subClass extends parent {
 }
 const user3 = new subClass("Suzzy", 4, 21);
 console.log(user3.age);
-
 // Seprate instance. from all.
 class scStudent {
   constructor(name) {
