@@ -16,7 +16,6 @@ newObj.name; // Error
 ```
 
 - **With Object.Create() technique**
-
 ```javascript
 const obj = {
   name: "Julia",
