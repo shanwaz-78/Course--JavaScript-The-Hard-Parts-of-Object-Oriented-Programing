@@ -1,5 +1,4 @@
 ## We Can also Create object and set them to the prototype of a specific object using Object.Create() technique.
-
 - **Without Object.Create() technique**
 ```javascript
 const obj = {
