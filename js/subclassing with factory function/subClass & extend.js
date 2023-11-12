@@ -8,7 +8,6 @@ class parent {
     console.log("Login");
   }
 }
-
 const user2 = new parent("Phill", 3);
 
 class subClass extends parent {
