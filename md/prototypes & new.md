@@ -6,7 +6,6 @@ const obj = {
   name: "Julia",
   age: 21,
 };
-
 const newObj = {
   designation: "Developer",
 };
