@@ -11,7 +11,6 @@ const user1 = new userCreate("Phill", 4);
 user1.login(); // -> 'Login'
 
     // There is noooo change in the syntactic sugar(under the hood working.) between this function and the class.
-
 class userCreate {
   constructor(name, score) {
     this.name = name;
