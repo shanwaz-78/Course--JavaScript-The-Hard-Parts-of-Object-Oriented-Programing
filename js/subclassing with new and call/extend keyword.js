@@ -1,4 +1,4 @@
-// Entend keyword does the 2 major things 1. it will extend the all properties and metods from parent class. 2. he will create the __proto__ and link that subclass to the parentclass's prototype object.
+// Extend keyword does the 2 major things 1. it will extend the all properties and metods from parent class. 2. he will create the __proto__ and link that subclass to the parentclass's prototype object.
 
 class scStudent {
   constructor(name, score) {
