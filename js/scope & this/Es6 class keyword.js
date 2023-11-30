@@ -6,7 +6,6 @@ function userCreate(name, score) {
 userCreate.prototype.login = function () {
   this.score++;
 };
-
 const user1 = new userCreate("Phill", 4);
 user1.login(); // -> 'Login'
 
